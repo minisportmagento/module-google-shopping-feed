@@ -1,0 +1,20 @@
+{
+    "name": "minisportmagento/module-google-shopping-feed",
+    "description": "Build up over `run_as_root/ext-magento2-google-shopping-feed` so it could work when Magento Invetory disabled",
+    "type": "magento2-module",
+    "require": {
+        "run_as_root/ext-magento2-google-shopping-feed": "^1.0.0"
+    },
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Minisport\\GoogleShoppingFeed\\": ""
+        }
+    }
+}
